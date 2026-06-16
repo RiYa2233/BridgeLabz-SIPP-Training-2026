@@ -1,0 +1,15 @@
+package gcr_codebase.control_flow.Level1;
+    import java.util.Scanner;
+
+    public class SmallestNumber {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+
+            int n1 = sc.nextInt();
+            int n2 = sc.nextInt();
+            int n3 = sc.nextInt();
+
+            System.out.println("Is the first number the smallest? "
+                    + (n1 < n2 && n1 < n3));
+        }
+    }
